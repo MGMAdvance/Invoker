@@ -1,0 +1,139 @@
+/* 
+	Invoker.css
+	CSS desenvolvido para facilitar a fixação e compreendimento sobre o mesmo.
+
+	Divirta-se
+*/
+
+/* GERAL */
+
+body{
+	margin: 0;
+	padding-bottom: 3rem;
+	font: 1rem/1.5 -apple-system, BlinkMacSystemFont, 
+		"Segoe UI",
+		"Roboto",
+		"Oxygen",
+		"Ubuntu",
+		"Cantarell",
+		"Fira Sans",
+		"Droid Sans",
+		"Helvetica Neue",
+		Arial,
+		sans-serif;
+	color: #555;
+	background-color: #fff;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* GERAL - FIM */
+
+/* PRINCIPAIS */
+
+.principal{
+	max-width: 100%;
+	padding: 0% 1%;
+}
+
+/* PRINCIPAIS - FIM */
+
+/* CAIXAS */
+
+.caixa-azul {
+	max-width: 100%;
+	background-color: rgba(0, 129, 255, 1);
+	font-size: 30px;
+	color: white;
+
+
+}
+
+.caixa-azul > a {
+	color: white;
+}
+
+.caixa-azul:hover{
+	background-color: red;
+}
+
+/* CAIXAS - FIM */
+
+/* PACOTES */
+
+.pacote {
+	max-width: 100%;
+	padding: 0% 1%;
+}
+
+.pacote-solto {
+	max-width: 100%;
+	padding: 1%;
+}
+
+/* PACOTES - FIM */
+
+/* OUTROS */
+
+.centralizado { text-align: center; }
+.maiusculo { text-transform: uppercase; }
+
+.preto-branco{
+	
+}
+
+.branco-preto{
+
+}
+
+/* OUTROS - FIM */
+
+/* SOMBRAS */
+
+/* Sombra normal */
+.sombra-a{
+	text-shadow: 1px 1px 0px black;
+}
+
+.sombra-b{
+	text-shadow: 2px 2px 0px black;
+}
+
+.sombra-c{
+	text-shadow: 4px 4px 0px black;
+}
+
+/* Sombra suave/esfumaçado */
+.sombra-suave-a{
+	text-shadow: 0px 0px 5px black;
+}
+
+.sombra-suave-b{
+	text-shadow: 0px 0px 10px black;
+}
+
+.sombra-suave-c{
+	text-shadow: 0px 0px 20px black;
+}
+
+
+/* Sombra no contorno do conteúdo */
+.caixa-sombra {
+	box-shadow: 0 2px 13px black;
+}
+/* SOMBRAS - FIM */
+
+/* MEDIAS */
+
+@media (max-width: 768px){
+	.caixa-azul{
+		max-width: 100%;
+		background-color: rgba(0, 129, 255, 1);
+		font-size: 50px;
+		color: white;
+	}
+}
+
+/* MEDIAS - FIM */

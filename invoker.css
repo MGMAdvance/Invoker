@@ -41,7 +41,7 @@ a{
   margin-left: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 528px) {
 
   .grade {
     display: table;
@@ -224,7 +224,21 @@ a{
 .caixa-sombra {
 	box-shadow: 0 2px 13px black;
 }
+
+/* (- Sombra no contorno do conteúdo -) */
+.sombra-trans{
+	box-shadow: 0 0px 0px black;
+	transition: all 0.40s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.sombra-trans:hover{
+	box-shadow: 0 2px 13px black;
+}
+
 /* (SOMBRAS - FIM) */
+
+
+
+
 
 /* EFEITOS - FIM */
 
